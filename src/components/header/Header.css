@@ -1,0 +1,25 @@
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 2rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#nav-items{
+  display: flex;
+}
+li{
+  color: #FF6060;
+  list-style-type: none;
+  margin-left: 3rem;
+  font-size: 24px;
+}
+li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+

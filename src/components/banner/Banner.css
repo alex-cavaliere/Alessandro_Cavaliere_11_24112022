@@ -1,0 +1,19 @@
+#banner{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+    background-repeat: no-repeat; 
+    background-position: center;
+    border-radius: 25px;
+    filter: brightness(70%);
+}
+.banner_1{
+    background-image: url('../../assets/images/banniere.png');
+}
+.banner_2{
+    background-image: url('../../assets/images/banniere_2.png');
+}
