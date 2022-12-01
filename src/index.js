@@ -4,6 +4,7 @@ import './index.css';
 import Accueil from './pages/Accueil';
 import APropos from './pages/Apropos';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer'
 import Error from './pages/ErrorPage';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
@@ -16,8 +17,10 @@ root.render(
       <Routes>
         <Route exact path="/" element={<Accueil/>}/>
         <Route path="/A_Propos" element={<APropos/>}/>
+        <Route path="/location/:id"></Route>
         <Route path="*" element={<Error/>}/>
       </Routes>
+      <Footer/>
     </Router>
   </React.StrictMode>
   

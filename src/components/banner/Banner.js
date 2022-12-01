@@ -6,7 +6,7 @@ function Banner(props){
     return(
         <div id="banner" className={className}>
                 <div>
-                    <h1>chez vous, partous, ailleurs</h1>
+                    {className === 'banner_1' && <h1>chez vous, partous, ailleurs</h1>}
                 </div>
         </div>
     );

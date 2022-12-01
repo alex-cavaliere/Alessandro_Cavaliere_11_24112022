@@ -1,8 +1,8 @@
 .App-header {
   display: flex;
   justify-content: space-between;
-  margin-left: 7rem;
-  margin-right: 7rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   margin-top: 2rem;
 }
 
@@ -12,14 +12,17 @@
 #nav-items{
   display: flex;
 }
-li{
+a{
+  text-decoration: none;
   color: #FF6060;
+}
+li{
+  text-decoration: none;
   list-style-type: none;
   margin-left: 3rem;
   font-size: 24px;
 }
-li:hover{
+li:active{
   text-decoration: underline;
-  cursor: pointer;
 }
 
