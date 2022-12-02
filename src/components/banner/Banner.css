@@ -1,24 +1,29 @@
+.banner-container{
+    height: 17rem;
+    margin-top: 4rem;
+}
 #banner{
-    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     margin: auto;
     width: 70%;
-    margin-top: 5em;
-    justify-content: center;
-    align-items: center;
     height: 14rem; 
     background-position: center;
     filter: brightness(70%);
+    border-radius: 25px;
 }
 h1{
+    position: relative;
+    text-align: center;
+    bottom: 10rem;
     font-size: 48px;
+    color: white;
 }
 .banner_1{
     background-image: url('../../assets/images/banniere.png');
     background-repeat: no-repeat;
-    border-radius: 25px;
 }
 .banner_2{
     background-image: url('../../assets/images/banniere_2.png');
     background-repeat: no-repeat;
-    border-radius: 25px;
 }

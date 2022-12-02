@@ -4,7 +4,7 @@ import {useState} from 'react'
 
 function Accueil(){
     const [cards, setCards] = useState([])
-    fetch('./data/logements.json')
+    fetch('/data/logements.json')
     .then(function(res){
         if (res.ok){
             return res.json();

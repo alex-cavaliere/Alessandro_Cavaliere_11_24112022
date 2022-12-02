@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Accueil from './pages/Accueil';
+import Logement from './pages/Logement'
 import APropos from './pages/Apropos';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer'
@@ -17,7 +18,7 @@ root.render(
       <Routes>
         <Route exact path="/" element={<Accueil/>}/>
         <Route path="/A_Propos" element={<APropos/>}/>
-        <Route path="/location/:id"></Route>
+        <Route path="/location/:id" element={<Logement/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
       <Footer/>
