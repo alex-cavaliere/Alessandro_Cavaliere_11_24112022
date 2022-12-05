@@ -1,0 +1,11 @@
+.carousel{
+    margin-top: 2rem;
+    text-align: center;
+    height: 415px;
+  }
+  .carousel img{
+    object-fit: cover;
+    width: 81%;
+    max-height: 415px;
+    border-radius: 25px;
+  }

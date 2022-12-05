@@ -1,29 +1,37 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
-import Banner from '../components/banner/Banner'
+import Carousel from '../components/carousel/Carousel'
 
 function Logement(){
     const {id} = useParams()
     const[data, setData] = useState([])
-    fetch('/data/logements.json')
-    .then(function(res){
-        if(res.ok){
-            return res.json()
-        }
-    })
-    .then(function(data){
-        data.map((location) => {
-            if(location.id === id){
-                setData(location)
+    const [isLoading, setIsLoading] = useState(true)
+    useEffect(function(){
+        fetch('/data/logements.json')
+        .then(function(res){
+            if(res.ok){
+                return res.json()
             }
-            return location
         })
-    })
+        .then(function(data){
+            setIsLoading(false)
+            data.map((location) => {
+                if(location.id === id){
+                    setData(location)
+                }
+                return location
+            })
+        })
+    },[isLoading])
     return(
-    <div>
-        <Banner className='banner_2'/>
-        <h1>{data.title}</h1>
+        <>{!isLoading && (
+        <div className="main">
+        <Carousel pictures={data.pictures}/>
+        <div className="main">
+            <h1>{data.title}</h1>
+        </div>
     </div>
+    )}</>
     )
 }
 

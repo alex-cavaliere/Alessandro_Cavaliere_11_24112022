@@ -9,7 +9,7 @@ function Card(props){
                 <figure>
                     <img src={card.cover} alt={card.title}></img>
                     <figcaption>
-                        <p>{card.location}</p>
+                        <p>{card.title}</p>
                     </figcaption>
                 </figure>
             </Link>
