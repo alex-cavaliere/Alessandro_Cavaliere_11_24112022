@@ -1,11 +1,21 @@
 .carousel{
-    margin-top: 2rem;
-    text-align: center;
-    height: 415px;
-  }
-  .carousel img{
-    object-fit: cover;
-    width: 81%;
-    max-height: 415px;
-    border-radius: 25px;
-  }
+  margin-top: 2rem;
+  text-align: center;
+  height: 415px;
+}
+.carousel img{
+  object-fit: cover;
+  width: 100%;
+  max-height: 415px;
+  border-radius: 25px;
+}
+.carousel-controls{
+  transform: translateY(-350%);
+  margin: auto;
+  display: flex;
+  max-width: 95%;
+  justify-content: space-between;
+}
+.carousel-controls img{
+  max-width: 46px;
+}

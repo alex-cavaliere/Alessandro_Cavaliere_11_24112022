@@ -22,14 +22,14 @@ function Logement(){
                 return location
             })
         })
-    },[isLoading])
+    },[id, isLoading])
     return(
         <>{!isLoading && (
         <div className="main">
         <Carousel pictures={data.pictures}/>
-        <div className="main">
+        <section>
             <h1>{data.title}</h1>
-        </div>
+        </section>
     </div>
     )}</>
     )

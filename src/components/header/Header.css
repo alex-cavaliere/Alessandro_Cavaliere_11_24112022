@@ -1,9 +1,8 @@
 .App-header {
   display: flex;
   justify-content: space-between;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-top: 2rem;
+  max-width: 80%;
+  margin: 2rem auto 2rem auto;
 }
 
 .App-link {
