@@ -1,9 +1,10 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url('./fonts/montserrat/Montserrat-Light.otf') format('opentype');
+  src: url('./fonts/montserrat/Montserrat-Regular.otf') format('opentype');
 }
 body {
   margin: 0;
+  width: 100%;
   font-family:'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,4 +20,38 @@ code {
 }
 h1{
   width: 100%;
+  font-size: 2rem;
+}
+.infos{
+  display: flex;
+  justify-content: space-between;
+}
+h2{
+  max-width: 40%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.section-header, h2{
+  color: #FF6060;
+}
+.tag-wrapper{
+  display: flex;
+}
+.host-wrapper{
+  width: fit-content;
+  height: fit-content;
+}
+.host{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.host-picture{
+  object-fit: scale-down;
+  border-radius: 50%;
+  width: 30%;
+}
+.rating img{
+  max-width: 20px;
+  margin: 0.3rem;
 }

@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto 2rem auto;
-    max-width: 80%;
+    max-width: 90%;
     padding-top: 2rem;
     background-color: #F6F6F6;
     border-radius: 25px;
@@ -20,7 +20,7 @@ figcaption{
     bottom: 5rem;
     background-color: rgba(000, 000, 000, 0.7)
 }
-p{
+.card-title{
     color: rgba(255, 255, 255, 0.767);
     padding-top: 0.5rem;
     height: 3.2rem;

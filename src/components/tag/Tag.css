@@ -1,0 +1,9 @@
+.tag{
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+    background-color: #FF6060;
+    color: white;
+    width: fit-content;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    border-radius: 15px;
+}
