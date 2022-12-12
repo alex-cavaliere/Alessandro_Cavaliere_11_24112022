@@ -1,0 +1,35 @@
+.dropdown-logement{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.dropdown-logement > div{
+    width: 45%;
+}
+.dropdown-menu{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #FF6060;
+    border-radius: 10px;
+}
+.dropdown-menu img{
+    width: 2rem;
+    margin-right: 2rem;
+}
+.dropdown-item{
+    overflow: hidden;
+}
+.dropdown-title{
+    margin-left: 2rem;
+    font-weight: 500;
+}
+.dropdown-content{
+    /*transform: translateY(-150%);*/
+    padding: 1rem;
+    color: #FF6060;
+    background-color: #F6F6F6;
+}
+ul{
+    padding-inline-start: 0;
+}

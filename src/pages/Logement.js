@@ -1,7 +1,8 @@
 import {useState, useEffect} from 'react'
-import {useParams} from 'react-router-dom'
+import {useNavigate, useParams} from 'react-router-dom'
 import Carousel from '../components/carousel/Carousel'
 import Tag from '../components/tag/Tag'
+import Collapse from '../components/collapse/Collapse'
 import fullStar from '../assets/images/star-solid.svg'
 import emptyStar from '../assets/images/star-empty.svg'
 
@@ -9,6 +10,7 @@ function Logement(){
     const {id} = useParams()
     const[data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(true)
+    const onNavigate = useNavigate()
     useEffect(function(){
         fetch('/data/logements.json')
         .then(function(res){
@@ -24,6 +26,10 @@ function Logement(){
                 }
                 return location
             })
+            let newId = data.filter((item) => item.id === id )
+            if(newId.length === 0){
+                onNavigate("error")
+            }
         })
     },[id, isLoading])
     function Rating(props){
@@ -32,7 +38,7 @@ function Logement(){
         return(
             <>
                 {
-                    range.map((rangeElem) => rating >= rangeElem ? <img src={fullStar} alt={`${data.host.name} rating`}/> : <img src={emptyStar} alt={`${data.host.name} rating`}/>
+                    range.map((rangeElem, index) => rating >= rangeElem ? <img key={index} src={fullStar} alt={`${data.host.name} rating`}/> : <img key={index} src={emptyStar} alt={`${data.host.name} rating`}/>
                     )
                 }
             </>
@@ -50,7 +56,7 @@ function Logement(){
                             {data.tags.map((tag) => <Tag tag={tag} key={tag} />)}
                         </div>
                     </article>
-                    <article className='host-wrapper'>
+                    <div className='host-wrapper'>
                         <div className='host'>
                             <h2>{data.host.name}</h2>
                             <img className='host-picture' src={data.host.picture} alt={data.host.name}/>
@@ -58,7 +64,13 @@ function Logement(){
                         <div className='rating'>
                             {<Rating rating={data.rating}/>}
                         </div>
-                    </article>
+                    </div>
+                </section>
+                <section className='content'>
+                    <div className='dropdown-logement'>
+                        <Collapse title='Description' content={data.description}/>
+                        <Collapse title='Equipements' content={data.equipments}/>
+                    </div>
                 </section>
             </div>
         )}
