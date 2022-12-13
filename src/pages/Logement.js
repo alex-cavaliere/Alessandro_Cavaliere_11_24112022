@@ -67,7 +67,7 @@ function Logement(){
                     </div>
                 </section>
                 <section className='content'>
-                    <div className='dropdown-logement'>
+                    <div className='dropdown logement'>
                         <Collapse title='Description' content={data.description}/>
                         <Collapse title='Equipements' content={data.equipments}/>
                     </div>
