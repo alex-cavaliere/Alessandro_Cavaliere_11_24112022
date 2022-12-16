@@ -6,8 +6,7 @@
   margin: 2rem auto 2rem auto;
 }
 .kasa-logo{
-  max-width: 170px;
-  height: 100%;
+  max-width: 35vw;
 }
 .App-link {
   color: #61dafb;
@@ -22,10 +21,15 @@ a{
 li{
   text-decoration: none;
   list-style-type: none;
+  margin: 0.5rem;
   font-size: 1.2rem;
-  margin: 1.2rem;
 }
 li:active{
   text-decoration: underline;
+}
+@media screen and (max-width:768px) {
+  li{
+    font-size: 1rem;
+  }
 }
 

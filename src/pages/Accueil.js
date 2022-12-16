@@ -20,7 +20,7 @@ function Accueil(){
     console.log(cards)
     return(
         <>{!isLoading && (
-            <div id="root">
+            <div className="main">
             <Banner className="banner_1"/>
             <div className="card-container">
                 {cards.map((card) => <Card key={card.id} card={card}/>)}

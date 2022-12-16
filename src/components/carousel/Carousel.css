@@ -16,9 +16,14 @@
   max-width: 95%;
   justify-content: space-between;
 }
-.host-wrapper{
-  width: fit-content;
-}
 .carousel-controls img{
   max-width: 46px;
+}
+@media screen and (max-width: 768px) {
+  .carousel{
+    height: 255px;
+  }
+  .carousel-controls{
+    transform: translateY(-250%);
+  }
 }

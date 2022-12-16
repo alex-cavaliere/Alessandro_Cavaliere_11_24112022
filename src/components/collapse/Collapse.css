@@ -1,9 +1,11 @@
 .dropdown{
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin: 2rem auto 4rem auto;
 }
 .apropos{
+    align-items: center;
+    margin: auto;
     flex-direction: column;
 }
 .logement > div{
@@ -26,7 +28,6 @@
 }
 .dropdown-item{
     max-width: 75%;
-    margin: 0 auto 0 auto;
     overflow: hidden;
 }
 .dropdown-title{
@@ -46,4 +47,15 @@ ul{
 }
 .hidden{
     display: none;
+}
+@media screen and (max-width:768px) {
+    .dropdown{
+        flex-direction: column;
+    }
+    .dropdown-item{
+        margin-bottom: 2rem;
+    }
+    .logement > div{
+        width: 100%;
+    }
 }

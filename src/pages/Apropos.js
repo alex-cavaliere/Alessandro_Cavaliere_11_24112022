@@ -3,7 +3,7 @@ import Collapse from '../components/collapse/Collapse.js'
 
 function APropos(){
     return(
-        <div id="root">
+        <div className="main">
             <Banner className="banner_2"/>
             <div className='apropos-content'>
             </div>

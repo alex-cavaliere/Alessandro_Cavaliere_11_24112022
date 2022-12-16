@@ -50,7 +50,7 @@ function Logement(){
                 <Carousel pictures={data.pictures}/>
                 <section className='infos'>
                     <article className='section-header'>
-                        <h1>{data.title}</h1>
+                        <h1 className='logement-title'>{data.title}</h1>
                         <p>{data.location}</p>
                         <div className='tag-wrapper'>
                             {data.tags.map((tag) => <Tag tag={tag} key={tag} />)}
@@ -58,7 +58,7 @@ function Logement(){
                     </article>
                     <div className='host-wrapper'>
                         <div className='host'>
-                            <h2>{data.host.name}</h2>
+                            <h2 className='host-name'>{data.host.name}</h2>
                             <img className='host-picture' src={data.host.picture} alt={data.host.name}/>
                         </div>
                         <div className='rating'>
