@@ -31,7 +31,7 @@ function Logement(){
                 onNavigate("error")
             }
         })
-    },[id, isLoading])
+    },[id, isLoading, onNavigate])
     function Rating(props){
         const rating = props.rating
         const range = [1, 2, 3, 4, 5]

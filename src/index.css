@@ -53,6 +53,7 @@ h2{
 }
 .host-name{
   font-size: 1rem;
+  max-width: 5rem;
 }
 .host-picture{
   object-fit: scale-down;
@@ -104,6 +105,9 @@ h2{
   }
   .infos{
     flex-direction: column;
+  }
+  .host{
+    margin-top: 0;
   }
   .host-wrapper{
     display: flex;

@@ -12,7 +12,7 @@
     width: 45%;
 }
 .apropos > div{
-    width: 80%;
+    width: 100%;
     margin-bottom: 1.5rem;
 }
 .dropdown-menu{
@@ -54,6 +54,7 @@ ul{
     }
     .dropdown-item{
         margin-bottom: 2rem;
+        max-width: 100%;
     }
     .logement > div{
         width: 100%;

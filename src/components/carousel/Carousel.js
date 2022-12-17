@@ -6,7 +6,7 @@ import {useState} from 'react'
 function Carousel(props){
     const [imgIndex, setImgIndex] = useState(0)
     const {pictures} = props
-    const [firstPic, setFirstPic] = useState(pictures[imgIndex])
+    const [firstPic] = useState(pictures[imgIndex])
     console.log(imgIndex)
     console.log(firstPic, pictures.indexOf(firstPic))
     const nextPic = () => {
