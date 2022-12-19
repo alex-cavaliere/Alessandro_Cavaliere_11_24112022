@@ -9,6 +9,11 @@
   height: 100%;
   border-radius: 25px;
 }
+.carousel-counter{
+  text-align: center;
+  color: white;
+  transform: translateY(-600%);
+}
 .carousel-controls{
   transform: translateY(-350%);
   margin: auto;
@@ -22,6 +27,9 @@
 @media screen and (max-width: 768px) {
   .carousel{
     height: 255px;
+  }
+  .carousel-counter{
+    display: none;
   }
   .carousel-controls{
     transform: translateY(-250%);

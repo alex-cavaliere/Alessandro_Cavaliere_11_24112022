@@ -17,7 +17,7 @@ function Accueil(){
             setCards(data)
         })
     },[isLoading])
-    console.log(cards)
+    //console.log(cards)
     return(
         <>{!isLoading && (
             <div className="main">
