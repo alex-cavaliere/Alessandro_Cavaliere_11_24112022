@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Alessandro_Cavaliere_11_24112022/static/css/main.d19fa139.css",
+    "main.js": "/Alessandro_Cavaliere_11_24112022/static/js/main.3a99212a.js",
+    "static/js/787.c1112931.chunk.js": "/Alessandro_Cavaliere_11_24112022/static/js/787.c1112931.chunk.js",
+    "static/media/banniere_2.png": "/Alessandro_Cavaliere_11_24112022/static/media/banniere_2.48994d589ab9a050990b.png",
+    "static/media/banniere.png": "/Alessandro_Cavaliere_11_24112022/static/media/banniere.09ec05dba6d06ca42f95.png",
+    "static/media/Montserrat-Bold.otf": "/Alessandro_Cavaliere_11_24112022/static/media/Montserrat-Bold.a6bc51efd33e2f7f1b95.otf",
+    "static/media/Montserrat-Regular.otf": "/Alessandro_Cavaliere_11_24112022/static/media/Montserrat-Regular.65bc44fbf8204991497c.otf",
+    "static/media/Montserrat-Light.otf": "/Alessandro_Cavaliere_11_24112022/static/media/Montserrat-Light.8c76b7212dc892314701.otf",
+    "static/media/star-empty.svg": "/Alessandro_Cavaliere_11_24112022/static/media/star-empty.2224cc72481843968d47a95204cbd72d.svg",
+    "static/media/star-solid.svg": "/Alessandro_Cavaliere_11_24112022/static/media/star-solid.5dd3c19751ec855039ab60a8ba9adb5a.svg",
+    "index.html": "/Alessandro_Cavaliere_11_24112022/index.html",
+    "static/media/chevron-right.svg": "/Alessandro_Cavaliere_11_24112022/static/media/chevron-right.06d0249f534cf182ec993c74483c4434.svg",
+    "static/media/chevron-down.svg": "/Alessandro_Cavaliere_11_24112022/static/media/chevron-down.b58ee1c1d68973ffcf7d980f97369bd6.svg",
+    "static/media/chevron-up.svg": "/Alessandro_Cavaliere_11_24112022/static/media/chevron-up.83413f90ad9877925560be08b0367265.svg",
+    "static/media/chevron-left.svg": "/Alessandro_Cavaliere_11_24112022/static/media/chevron-left.6f722068dc96a074a165cfe80587a7af.svg",
+    "main.d19fa139.css.map": "/Alessandro_Cavaliere_11_24112022/static/css/main.d19fa139.css.map",
+    "main.3a99212a.js.map": "/Alessandro_Cavaliere_11_24112022/static/js/main.3a99212a.js.map",
+    "787.c1112931.chunk.js.map": "/Alessandro_Cavaliere_11_24112022/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d19fa139.css",
+    "static/js/main.3a99212a.js"
+  ]
+}
