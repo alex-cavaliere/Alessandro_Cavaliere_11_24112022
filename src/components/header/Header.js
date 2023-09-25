@@ -12,7 +12,7 @@ function Header() {
       <nav id="navbar">
         <ul id="nav-items">
           <li>
-            <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : undefined} end>Accueil</NavLink>
+            <NavLink to="/Alessandro_Cavaliere_11_24112022" style={({ isActive }) => isActive ? activeStyle : undefined} end>Accueil</NavLink>
           </li>
           <li>
             <NavLink to="/A_Propos" style={({ isActive }) => isActive ? activeStyle : undefined} end>A Propos</NavLink>
