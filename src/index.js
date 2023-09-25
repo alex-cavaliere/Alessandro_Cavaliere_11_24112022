@@ -16,7 +16,7 @@ root.render(
     <Router>
       <Header/>
       <Routes>
-        <Route exact path="/Alessandro_Cavaliere_11_24112022" element={<Accueil/>}/>
+        <Route exact path="/" element={<Accueil/>}/>
         <Route path="/A_Propos" element={<APropos/>}/>
         <Route path="/location/:id" element={<Logement/>}/>
         <Route path="*" element={<Error/>}/>
