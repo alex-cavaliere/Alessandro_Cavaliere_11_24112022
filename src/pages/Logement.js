@@ -12,7 +12,7 @@ function Logement(){
     const [isLoading, setIsLoading] = useState(true)
     const onNavigate = useNavigate()
     useEffect(function(){
-        fetch('/data/logements.json')
+        fetch('/Alessandro_Cavaliere_11_24112022/data/logements.json')
         .then(function(res){
             if(res.ok){
                 return res.json()
