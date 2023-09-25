@@ -8,7 +8,6 @@ function Carousel(props){
     const {pictures} = props
     const [firstPic] = useState(pictures[imgIndex])
     //console.log(imgIndex)
-    console.log(firstPic)
     const nextPic = () => {
         if(imgIndex < pictures.length - 1){
             setImgIndex(imgIndex + 1)

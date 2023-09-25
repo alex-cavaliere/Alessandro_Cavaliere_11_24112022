@@ -26,6 +26,7 @@ function Logement(){
                 }
                 return location
             })
+            console.log(data)
             let newId = data.filter((item) => item.id === id )
             if(newId.length === 0){
                 onNavigate("error")
