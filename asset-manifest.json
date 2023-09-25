@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Alessandro_Cavaliere_11_24112022/static/css/main.d19fa139.css",
-    "main.js": "/Alessandro_Cavaliere_11_24112022/static/js/main.0d49b680.js",
+    "main.js": "/Alessandro_Cavaliere_11_24112022/static/js/main.bc84e63d.js",
     "static/js/787.c1112931.chunk.js": "/Alessandro_Cavaliere_11_24112022/static/js/787.c1112931.chunk.js",
     "static/media/banniere_2.png": "/Alessandro_Cavaliere_11_24112022/static/media/banniere_2.48994d589ab9a050990b.png",
     "static/media/banniere.png": "/Alessandro_Cavaliere_11_24112022/static/media/banniere.09ec05dba6d06ca42f95.png",
@@ -16,11 +16,11 @@
     "static/media/chevron-up.svg": "/Alessandro_Cavaliere_11_24112022/static/media/chevron-up.83413f90ad9877925560be08b0367265.svg",
     "static/media/chevron-left.svg": "/Alessandro_Cavaliere_11_24112022/static/media/chevron-left.6f722068dc96a074a165cfe80587a7af.svg",
     "main.d19fa139.css.map": "/Alessandro_Cavaliere_11_24112022/static/css/main.d19fa139.css.map",
-    "main.0d49b680.js.map": "/Alessandro_Cavaliere_11_24112022/static/js/main.0d49b680.js.map",
+    "main.bc84e63d.js.map": "/Alessandro_Cavaliere_11_24112022/static/js/main.bc84e63d.js.map",
     "787.c1112931.chunk.js.map": "/Alessandro_Cavaliere_11_24112022/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d19fa139.css",
-    "static/js/main.0d49b680.js"
+    "static/js/main.bc84e63d.js"
   ]
 }
